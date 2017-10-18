@@ -8,18 +8,14 @@ Using a programming / scripting language of your choice (example C#, Java, batch
  
 Some example:
 
-| Expression    | type          |
-| ------------- | ------------- |
-| a*(([x + 2])[(y)])+2  | Valid  |
-| b/((][x)  | Not Valid  |
-| (5 + 2))(  | Not Valid  |
-| ([x +2]))y(z)-5  | Not Valid  |
-| ([x+2)  | Not Valid  |
+| Expression              | type       |
+| ----------------------- | ---------- |
+| `a*(([x + 2])[(y)])+2`  | Valid      |
+| `b/((][x)`              | Not Valid  |
+| `(5 + 2))(`             | Not Valid  |
+| `([x +2]))y(z)-5`       | Not Valid  |
+| `([x+2)`                | Not Valid  |
 
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
 
-Deliverables:
+Deliverables :
 a.     Write the code for this expression parser. This code takes the expression as an input and returns a boolean (true if the expression has balanced parentheses AND balanced square brackets, else false).
